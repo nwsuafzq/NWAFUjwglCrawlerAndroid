@@ -1,0 +1,40 @@
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="200dp"
+    android:id="@+id/headPhoto"
+    android:layout_marginTop="30dp"
+    android:layout_gravity="center_horizontal|top"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="课程表查询"
+    android:id="@+id/course_List"
+    android:layout_centerVertical="true"
+    android:layout_alignParentStart="true" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="成绩查询"
+    android:id="@+id/examination_Results"
+    android:layout_alignTop="@+id/course_List"
+    android:layout_alignParentEnd="true" />
+<!--
+<WebView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/webView"
+    android:layout_below="@+id/course_List"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentBottom="true"
+    android:layout_alignEnd="@+id/examination_Results" />
+-->
+</RelativeLayout>
